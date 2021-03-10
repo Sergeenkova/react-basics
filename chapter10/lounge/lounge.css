@@ -1,7 +1,5 @@
 body {
-  font-size:           small;
-  font-family:         Verdana, Helvetica, Arial, sans-serif;
-  line-height:         1.6em;
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
 }
 
 h1, h2 {
@@ -46,6 +44,7 @@ h2 {
 	background-image: url(images/cocktail.gif);
 	background-repeat: repeat-x;
 	line-height: 1;
+	float: right;
 }
 #elixirs h2 {
 	color: black;
@@ -66,13 +65,19 @@ h2 {
 	font-weight: bold;
 }	
 a:link {
-	color: green;
+	color: #007e7e;
 }
 a:visited {
-color: red;
+	color: #333333;
 }
-a:hover {
-	color:yellow;
+#elixirs a:link {
+	color: #007e7e;
 }
-
+#elixirs a:visited {
+color: #333333;
+}
+#elixirs a:hover {
+	background: #f88396;
+	color: #0d5353;
+}
 	
